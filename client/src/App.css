@@ -1,0 +1,49 @@
+.page-wrapper {
+  min-height: 100vh;
+  display: flex;
+  width: 100%;
+}
+
+.page-wrapper.login-background {
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-image: url("./components/Login/greece_1.jpg");
+}
+
+.page-wrapper.home-background {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #fff;
+  background-image: url("./images/greece_2.jpg");
+}
+
+.right-panel.dashboard {
+  margin-left: 200px;               /* Space for the side panel */
+  width: calc(100% - 200px);        /* Full width minus left and right margins */
+  display: inline-block;
+  box-sizing: border-box;           /* Ensures padding and borders are included in width */
+  transition: width 0.3s ease;
+}
+
+.right-panel.collapsed {
+  margin-left: 50px;               /* Right margin */
+  width: calc(100% - 50px);        /* Full width minus left and right margins */
+  display: inline-block;
+  box-sizing: border-box;           /* Ensures padding and borders are included in width */
+  transition: width 0.3s ease;
+}
+
+.content-container{
+  background-color: rgba(255, 255, 255, 0.85);  /* White background for the dashboard */
+  width: calc(100% - 20px);
+  min-height: 400px;
+  margin: 0 10px 0 10px;
+  border-color: rgba(77, 77, 77, 1);
+  border-width: 2px 2px 2px 2px;
+  border-style:solid;
+  height: calc(100% - 130px);
+  display:flex;
+}

@@ -1,0 +1,140 @@
+.add-container{
+    width: 100%;
+}
+
+.add-btn-previous{
+    width: 100px;
+    margin-right: 10px;
+}
+
+.add-btn-next{
+    width: 100px;
+}
+
+.add-btn-submit{
+    width: 100px;
+}
+
+h2{
+    text-align: center;
+}
+
+.add-btns-form{
+    display:flex;
+    margin-top:20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-name-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-name-input{
+    width: 300px;
+}
+
+.add-btn-container{
+    display: flex;
+    gap: 10px; /* Spacing between menu items */
+    align-items: center;
+    justify-content: center;
+}
+
+.add-btn-section-active {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    background-color: rgb(4, 153, 4);
+} 
+    
+.add-btn-section {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    
+}
+
+.add-btn-section-active:hover {
+    background-color: #0a0;
+} 
+
+.add-btn-section:hover {
+    background-color: #0a0;
+}
+
+.add-btn-section-button-img{
+    width: 80px;
+    height: 80px;
+}
+
+
+.setup-container{
+    width: 100%;
+}
+
+.pairs-input-container{
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+}
+
+.pairs-input{
+    width: 100px;
+}
+
+.pairs-input-sent{
+    width: 300px;
+}
+
+.pairs-btn{
+    max-width: 100px;
+    margin-left:10px;
+}
+
+.text-longtext{
+    width: 90%;
+}
+
+.text-words-add{
+    max-width: 100px;
+    margin-left:10px;
+}
+
+.text-words{
+    display: inline-block;
+    margin: 10px 10px 0 10px;
+    vertical-align: middle;
+}
+
+.text-words-text{
+    width: 100px;
+    border-radius: 7px 0 0 7px;
+    margin: 0;
+    height: 37px; /* Ensure both have the same height */
+    vertical-align: middle;
+    line-height: normal;
+    padding: 0 5px; /* Ensure padding is minimal for consistent height */
+    box-sizing: border-box;
+}
+
+.text-words-remove{
+    width: 40px;
+    height: 37px; /* Match the height of the text box */
+    border-radius: 0 7px 7px 0;
+    margin: 0;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 0; /* Reset padding */
+    box-sizing: border-box;
+}
+
+.text-label{
+    font-size: 20px;
+    margin: 0;
+    vertical-align: middle;
+    line-height: normal;
+    padding: 0; /* Reset padding */
+    box-sizing: border-box;
+}

@@ -1,0 +1,102 @@
+.title-container {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+}
+
+.title-left{
+    padding:10px;
+    width: 100px;
+    height: 100px;
+    background-color: rgba(44, 44, 44, 1);
+    border-radius: 0 0 20px 0;
+}
+
+.title-content {
+    display: flex;
+    width: calc(100% - 100px);
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.title-right{
+    display: flex;
+    height: 60px;
+    background-color: rgba(44, 44, 44, 1);
+}
+
+.sub-navigation{
+    display: flex;
+    height: 65px;
+    margin-left:20px;
+}
+
+.title-right h1{
+    text-align: left;
+    margin: 10px 0 0 20px;
+    color: #fff;
+}
+
+.title-image{
+    width: 90px;              /* Width of the image */
+    height: 90px;             /* Height of the image */
+    margin-right: 10px;       /* Spacing between image and text */
+    object-fit: cover;        /* Ensures the image fills the circle without distortion */
+}
+
+.sub-nav-menu {
+    display: flex;
+    gap: 3px; /* Spacing between menu items */
+}
+
+.sub-nav-item {
+    text-decoration: none;
+    border-color: #333;
+    border-width: 0 2px 0 2px;
+    border-style:solid;
+    color: #fff;
+    font-weight: bold;
+    padding: 20px 10px;
+    transition: color 0.3s ease;
+    margin-left:5px;
+    background-color: rgba(55, 55, 55, 1);
+    display:flex;
+    justify-content: space-between;
+}
+
+.sub-nav-item:hover {
+    color: #fff; /* Change color on hover */
+    background-color: rgba(77, 77, 77, 1);
+}
+
+.sub-nav-item-active {
+    text-decoration: none;
+    border-color: rgba(77, 77, 77, 1);
+    border-width: 0 2px 0 2px;
+    border-style:solid;
+    font-weight: bold;
+    padding: 20px 10px;
+    transition: color 0.3s ease;
+    margin-left:5px;
+    display:flex;
+    justify-content: space-between;
+
+    color: #fff; /* Change color on hover */
+    background-color: rgba(77, 77, 77, 1);
+}
+
+.sub-nav-linkname{
+    flex-grow: 1;              /* Allow name to grow and take available space */
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.sub-nav-image{
+    width: 25px;              /* Width of the image */
+    height: 25px;             /* Height of the image */
+    border-radius: 50%;       /* Circular crop for the image */
+    margin-right: 10px;       /* Spacing between image and text */
+    object-fit: cover;        /* Ensures the image fills the circle without distortion */
+    transition: width 0.5s ease; /* Smooth transition for width changes */
+    transition: height 0.5s ease; /* Smooth transition for width changes */
+}

@@ -1,0 +1,114 @@
+.nav-progress {
+    position: relative;
+    width: 100%; /* Full width */
+    height: 50px; /* Height of the progress bar container */
+    color: #fff;
+}
+
+.nav-progress-active {
+    position: relative;
+    width: 100%; /* Full width */
+    height: 50px; /* Height of the progress bar container */
+    color: #000;
+    background-color: #777;
+}
+
+.nav-progress-bar {
+    height: 100%; /* Full height of the container */
+    background-color: #76c7c0; /* Color of the progress bar */
+    border-radius: 0px 5px 5px 0px; /* Rounded corners for the progress bar */
+    transition: width 1.5s ease; /* Smooth transition for width changes */
+}
+
+.nav-progress-text {
+    position: absolute; /* Position text over the bar */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    width: 90%;
+    transform: translate(-50%, -50%); /* Adjust position to center */
+    display:flex;
+    justify-content: space-between;
+}
+
+.nav-image{
+    width: 25px;              /* Width of the image */
+    height: 25px;             /* Height of the image */
+    border-radius: 50%;       /* Circular crop for the image */
+    margin-right: 10px;       /* Spacing between image and text */
+    object-fit: cover;        /* Ensures the image fills the circle without distortion */
+    transition: width 0.5s ease; /* Smooth transition for width changes */
+    transition: height 0.5s ease; /* Smooth transition for width changes */
+}
+
+.nav-image-hidden{
+    width: 40px;              /* Width of the image */
+    height: 40px;             /* Height of the image */
+    border-radius: 50%;       /* Circular crop for the image */
+    margin-right: 10px;       /* Spacing between image and text */
+    object-fit: cover;        /* Ensures the image fills the circle without distortion */
+    transition: width 0.5s ease; /* Smooth transition for width changes */
+    transition: height 0.5s ease; /* Smooth transition for width changes */
+}
+
+.nav-linkname{
+    flex-grow: 1;              /* Allow name to grow and take available space */
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.nav_completation{
+    font-size: 0.9em;
+    color: #888;               /* Dimmed color for the completion text */
+}
+
+.nav-item{
+    margin: 0px;
+}
+
+.navbar {
+    width:100%;
+    color: #fff;
+}
+
+.navbar h2 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar nav ul li .NavLink:hover {
+    color: #fff;
+}
+
+.nav-progress:hover{
+    background-color: #555;
+}
+
+.nav-progress-active:hover{
+    background-color: #555;
+}
+
+.toggle-button {
+    margin-top: auto; /* Pushes the button to the bottom */
+    padding: 8px;
+    background-color: rgba(34, 34, 34, 1);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.toggle-button:hover {
+    background-color: rgba(54, 54, 54, 1);
+}
